@@ -1,0 +1,58 @@
+# ==========================================
+# CRITICAL CYBERSECURITY SAFEGUARDS
+# ==========================================
+# Never commit raw hashes, cracked passwords, or active session captures
+*.hash
+*.txt
+*.pot
+*.potnum
+*.rec
+*.log
+*.pcap
+*.pcapng
+*.sav
+
+# Block specific wordlists or sensitive data stores
+*wordlist*
+rockyou.txt
+shadow
+passwd
+
+# Exception: Allow documentation markdown files to remain visible
+!*.md
+
+# ==========================================
+# PYTHON / SCRIPTING COMPONENT
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 💻 SYSTEM & TEXT EDITORS
+# ==========================================
+# MacOS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~
